@@ -1,0 +1,135 @@
+2021-09-25 23:05:34 INFO  AddressServiceImpl:39 - Adress is created. Id: 12
+2021-09-25 23:07:18 INFO  AddressServiceImpl:39 - Adress is created. Id: 13
+2021-09-25 23:42:25 INFO  AddressServiceImpl:39 - Adress is created. Id: 14
+2021-09-25 23:45:01 INFO  AddressServiceImpl:39 - Adress is created. Id: 15
+2021-09-25 23:46:42 INFO  AddressServiceImpl:39 - Adress is created. Id: 16
+2021-09-25 23:48:15 INFO  AddressServiceImpl:39 - Adress is created. Id: 17
+2021-09-25 23:50:04 INFO  AddressServiceImpl:39 - Adress is created. Id: 18
+2021-09-25 23:53:55 INFO  AddressServiceImpl:39 - Adress is created. Id: 19
+2021-09-25 23:56:12 INFO  AddressServiceImpl:39 - Adress is created. Id: 20
+2021-09-26 00:00:49 INFO  AddressServiceImpl:39 - Adress is created. Id: 21
+2021-09-26 00:10:52 INFO  AddressServiceImpl:39 - Adress is created. Id: 22
+2021-09-26 00:18:57 INFO  AddressServiceImpl:39 - Adress is created. Id: 23
+2021-09-26 00:25:33 INFO  CustomRequestInterceptor:21 - Request URL::http://localhost:9090/errorRequest Method::GET:: Start Time=2021-09-25T22:25:33.171Z
+2021-09-26 00:25:33 INFO  CustomRequestInterceptor:32 - Request URL::http://localhost:9090/errorRequest Method::GET:: Time Taken=178
+2021-09-26 00:25:40 INFO  CustomRequestInterceptor:21 - Request URL::http://localhost:9090/errorRequest Method::GET:: Start Time=2021-09-25T22:25:40.734Z
+2021-09-26 00:25:40 INFO  CustomRequestInterceptor:32 - Request URL::http://localhost:9090/errorRequest Method::GET:: Time Taken=44
+2021-09-26 00:25:42 INFO  CustomRequestInterceptor:21 - Request URL::http://localhost:9090/errorRequest Method::GET:: Start Time=2021-09-25T22:25:42.921Z
+2021-09-26 00:25:42 INFO  CustomRequestInterceptor:32 - Request URL::http://localhost:9090/errorRequest Method::GET:: Time Taken=25
+2021-09-26 00:25:43 INFO  CustomRequestInterceptor:21 - Request URL::http://localhost:9090/errorRequest Method::GET:: Start Time=2021-09-25T22:25:43.882Z
+2021-09-26 00:25:43 INFO  CustomRequestInterceptor:32 - Request URL::http://localhost:9090/errorRequest Method::GET:: Time Taken=40
+2021-09-26 00:26:29 INFO  CustomRequestInterceptor:21 - Request URL::http://localhost:9090/errorRequest Method::GET:: Start Time=2021-09-25T22:26:29.883Z
+2021-09-26 00:26:29 INFO  CustomRequestInterceptor:32 - Request URL::http://localhost:9090/errorRequest Method::GET:: Time Taken=59
+2021-09-26 00:26:31 INFO  CustomRequestInterceptor:21 - Request URL::http://localhost:9090/errorRequest Method::GET:: Start Time=2021-09-25T22:26:31.014Z
+2021-09-26 00:26:31 INFO  CustomRequestInterceptor:32 - Request URL::http://localhost:9090/errorRequest Method::GET:: Time Taken=26
+2021-09-26 00:26:52 INFO  CustomRequestInterceptor:21 - Request URL::http://localhost:9090/errorRequest Method::GET:: Start Time=2021-09-25T22:26:52.176Z
+2021-09-26 00:26:52 INFO  CustomRequestInterceptor:32 - Request URL::http://localhost:9090/errorRequest Method::GET:: Time Taken=25
+2021-09-26 00:34:47 INFO  AddressServiceImpl:39 - Adress is created. Id: 24
+2021-09-26 12:12:07 INFO  AddressController:79 - Adress filter request is taken.
+2021-09-26 12:12:07 INFO  AddressServiceImpl:76 - Adress detail is received with given fields. Street no: 
+2021-09-26 12:12:39 INFO  AddressController:79 - Adress filter request is taken.
+2021-09-26 12:12:39 INFO  AddressServiceImpl:76 - Adress detail is received with given fields. Street no: 
+2021-09-26 12:14:57 INFO  AddressServiceImpl:135 - Adress detail with services is received. Address Id: 1
+2021-09-26 12:15:05 INFO  AddressServiceImpl:135 - Adress detail with services is received. Address Id: 1
+2021-09-26 12:17:58 ERROR GlobalExceptionHandler:49 - ModelMapper configuration errors:
+
+1) The destination property com.telco.operator.telcoservices.dto.ResponseServiceDetailDto.setServiceId() matches multiple source property hierarchies:
+
+	com.telco.operator.telcoservices.model.Service.getService()/com.telco.operator.telcoservices.enums.ServiceType.getId()
+	com.telco.operator.telcoservices.model.Service.getServiceId()
+
+1 error
+2021-09-26 12:19:13 ERROR GlobalExceptionHandler:49 - ModelMapper configuration errors:
+
+1) The destination property com.telco.operator.telcoservices.dto.ResponseServiceDetailDto.setServiceId() matches multiple source property hierarchies:
+
+	com.telco.operator.telcoservices.model.Service.getAddress()/com.telco.operator.telcoservices.model.Address.getAddressId()
+	com.telco.operator.telcoservices.model.Service.getService()/com.telco.operator.telcoservices.enums.ServiceType.getId()
+	com.telco.operator.telcoservices.model.Service.getServiceId()
+
+1 error
+2021-09-26 12:20:16 ERROR GlobalExceptionHandler:49 - ModelMapper configuration errors:
+
+1) The destination property com.telco.operator.telcoservices.dto.ResponseServiceDetailDto.setServiceId() matches multiple source property hierarchies:
+
+	com.telco.operator.telcoservices.model.Service.getAddress()/com.telco.operator.telcoservices.model.Address.getAddressId()
+	com.telco.operator.telcoservices.model.Service.getService()/com.telco.operator.telcoservices.enums.ServiceType.getId()
+	com.telco.operator.telcoservices.model.Service.getServiceId()
+
+1 error
+2021-09-26 12:21:04 ERROR GlobalExceptionHandler:49 - ModelMapper configuration errors:
+
+1) The destination property com.telco.operator.telcoservices.dto.ResponseServiceDetailDto.setServiceId() matches multiple source property hierarchies:
+
+	com.telco.operator.telcoservices.model.Service.getAddress()/com.telco.operator.telcoservices.model.Address.getAddressId()
+	com.telco.operator.telcoservices.model.Service.getService()/com.telco.operator.telcoservices.enums.ServiceType.getId()
+	com.telco.operator.telcoservices.model.Service.getServiceId()
+
+1 error
+2021-09-26 12:22:27 INFO  ServiceServiceImpl:75 - Service detail is received with Id. Service Id: 1
+2021-09-26 12:25:52 INFO  ServiceServiceImpl:75 - Service detail is received with Id. Service Id: 1
+2021-09-26 16:00:49 INFO  AddressServiceImpl:128 - Adress detail with services is received. Address Id: 1
+2021-09-26 16:01:04 INFO  AddressServiceImpl:128 - Adress detail with services is received. Address Id: 2
+2021-09-26 16:01:12 INFO  AddressServiceImpl:128 - Adress detail with services is received. Address Id: 3
+2021-09-26 16:01:25 INFO  AddressServiceImpl:128 - Adress detail with services is received. Address Id: 4
+2021-09-26 16:01:31 INFO  AddressServiceImpl:128 - Adress detail with services is received. Address Id: 5
+2021-09-26 16:01:36 INFO  AddressServiceImpl:128 - Adress detail with services is received. Address Id: 6
+2021-09-26 16:01:41 INFO  AddressServiceImpl:128 - Adress detail with services is received. Address Id: 7
+2021-09-26 16:01:49 ERROR GlobalExceptionHandler:41 - ADDRESS_NOT_FOUND
+2021-09-26 16:38:25 INFO  AddressServiceImpl:127 - Adress detail with services is received. Address Id: 1
+2021-09-26 16:38:56 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:38:56 ERROR GlobalExceptionHandler:46 - Value must not be null!; nested exception is java.lang.IllegalArgumentException: Value must not be null!
+2021-09-26 16:39:05 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:39:05 ERROR GlobalExceptionHandler:46 - Parameter value [%0%] did not match expected type [java.lang.Integer (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [%0%] did not match expected type [java.lang.Integer (n/a)]
+2021-09-26 16:39:14 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:39:14 ERROR GlobalExceptionHandler:46 - Parameter value [%1000%] did not match expected type [java.lang.Integer (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [%1000%] did not match expected type [java.lang.Integer (n/a)]
+2021-09-26 16:40:53 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:40:54 INFO  AddressServiceImpl:82 - Adress detail is received with given fields.
+2021-09-26 16:41:03 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:41:03 INFO  AddressServiceImpl:82 - Adress detail is received with given fields.
+2021-09-26 16:41:48 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:41:48 INFO  AddressServiceImpl:82 - Adress detail is received with given fields.
+2021-09-26 16:41:56 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:41:56 INFO  AddressServiceImpl:82 - Adress detail is received with given fields.
+2021-09-26 16:43:39 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:43:39 ERROR GlobalExceptionHandler:46 - Value must not be null!; nested exception is java.lang.IllegalArgumentException: Value must not be null!
+2021-09-26 16:57:04 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:57:04 INFO  AddressServiceImpl:82 - Adress detail is received with given fields.
+2021-09-26 16:57:23 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:57:23 INFO  AddressServiceImpl:82 - Adress detail is received with given fields.
+2021-09-26 16:57:43 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:57:43 INFO  AddressServiceImpl:82 - Adress detail is received with given fields.
+2021-09-26 16:57:54 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 16:57:55 INFO  AddressServiceImpl:82 - Adress detail is received with given fields.
+2021-09-26 17:07:26 ERROR GlobalExceptionHandler:46 - Type definition error: [simple type, class com.telco.operator.telcoservices.dto.RequestAddressFilterDto]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.telco.operator.telcoservices.dto.RequestAddressFilterDto` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 2, column: 3]
+2021-09-26 17:08:27 ERROR GlobalExceptionHandler:46 - Type definition error: [simple type, class com.telco.operator.telcoservices.dto.RequestAddressFilterDto]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.telco.operator.telcoservices.dto.RequestAddressFilterDto` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (PushbackInputStream); line: 2, column: 3]
+2021-09-26 17:37:40 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:37:41 INFO  AddressServiceImpl:86 - Adress detail is received with given fields.
+2021-09-26 17:37:57 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:37:57 ERROR GlobalExceptionHandler:46 - Parameter value [1000] did not match expected type [java.lang.String (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [1000] did not match expected type [java.lang.String (n/a)]
+2021-09-26 17:38:13 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:38:13 INFO  AddressServiceImpl:86 - Adress detail is received with given fields.
+2021-09-26 17:38:39 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:38:39 INFO  AddressServiceImpl:86 - Adress detail is received with given fields.
+2021-09-26 17:42:19 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:42:19 ERROR GlobalExceptionHandler:46 - Parameter value [1580] did not match expected type [java.lang.String (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [1580] did not match expected type [java.lang.String (n/a)]
+2021-09-26 17:42:35 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:42:35 ERROR GlobalExceptionHandler:46 - Parameter value [1580] did not match expected type [java.lang.String (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [1580] did not match expected type [java.lang.String (n/a)]
+2021-09-26 17:47:44 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:47:44 ERROR GlobalExceptionHandler:46 - Parameter value [1580] did not match expected type [java.lang.String (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [1580] did not match expected type [java.lang.String (n/a)]
+2021-09-26 17:50:52 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:50:52 ERROR GlobalExceptionHandler:46 - Parameter value [1000] did not match expected type [java.lang.String (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [1000] did not match expected type [java.lang.String (n/a)]
+2021-09-26 17:51:03 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:51:03 INFO  AddressServiceImpl:86 - Adress detail is received with given fields.
+2021-09-26 17:51:17 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:51:17 INFO  AddressServiceImpl:86 - Adress detail is received with given fields.
+2021-09-26 17:51:40 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:51:40 INFO  AddressServiceImpl:86 - Adress detail is received with given fields.
+2021-09-26 17:52:41 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:52:41 INFO  AddressServiceImpl:86 - Adress detail is received with given fields.
+2021-09-26 17:53:04 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 17:53:04 INFO  AddressServiceImpl:86 - Adress detail is received with given fields.
+2021-09-26 18:00:24 INFO  AddressController:81 - Adress filter request is taken.
+2021-09-26 18:00:24 INFO  AddressServiceImpl:86 - Adress detail is received with given fields.

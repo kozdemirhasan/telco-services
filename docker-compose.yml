@@ -1,0 +1,23 @@
+version: '3.1'
+services:
+  db:
+    image: postgres
+    container_name: db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=12345
+      - POSTGRES_USER=telco
+      - POSTGRES_DB=telco
+  app:
+    container_name: telco-services
+    image: telco-services
+    restart: on-failure
+    build: ./
+    ports:
+      - "9090:9090"
+    depends_on:
+      - db
+      
+
+      
